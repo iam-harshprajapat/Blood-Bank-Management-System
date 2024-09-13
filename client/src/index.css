@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --------------------------------------------------
+------------------------LOGIN----------------------
+-------------------------------------------------- */
+.login-container,
+.register-container {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+/* --------------------------------------------------
+------------------------FORM----------------------
+-------------------------------------------------- */
+/* Center the form and its content */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* Center text inside the form */
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-select {
+  border-radius: 20px;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 2px solid #0CB8B6;
+  color: #0CB8B6;
+  margin-top: 34px;
+}
+
+hr {
+  margin-bottom: 2rem;
+}
+
+/* Style for form labels and inputs */
+label {
+  color: #0CB8B6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  border: 2px solid #0CB8B6;
+
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-top: 15px;
+  color: #0CB8B6;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+  color: #555;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0CB8B6;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #000;
+}
+
+/* Links and text inside the form */
+p {
+  text-align: center;
+  color: #777;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------
+------------------------LOADER-----------------------
+-------------------------------------------------- */
+
+
+.loading {
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* --------------------------------------------------
+--------------------NAVIGATION BAR-------------------
+-------------------------------------------------- */
+.navbar {
+  height: 80px;
+  background-color: #fff;
+}
+
+.navbar .container-fluid a {
+  text-decoration: none;
+}
+
+.brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.brand h3 {
+  font-size: 35px;
+  font-weight: 530;
+  color: #0CB8B6;
+}
+
+.icon {
+  height: 32px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-link,
+.nav-item {
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+
+  &&:hover {
+    color: #0CB8B6;
+    transition: 0.2s;
+  }
+}
+
+.nav-item p {
+  margin-top: 15px;
+}
+
+.badge {
+  background-color: #0CB8B6 !important;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.logout,
+.login {
+  border-radius: 20px;
+  border: none;
+  background-color: #0CB8B6;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  padding: 7px 12px;
+  transition: 0.2s;
+
+  &&:hover {
+    transform: scale(1.04);
+  }
+
+  &&:active {
+    transform: scale(0.97);
+  }
+}
+
+/* --------------------------------------------------
+------------------------ANALYTICS-----------------------
+-------------------------------------------------- */
+.a-cardbox {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid #0CB8B6;
+  border-radius: 8px;
+  margin: 20px 12px;
+  padding-top: 15px;
+}
+
+.a-cardbox h4 {
+  color: #D10510;
+  border-bottom: 1px solid #0CB8B6;
+  width: 100%;
+  text-align: center;
+}
+
+.a-cardbox .in {
+  color: rgb(0, 175, 0);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.a-cardbox .out {
+  color: red;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+
+.a-cardbox .avilblood {
+  background-color: #0CB8B6;
+  width: 100%;
+  flex: 1;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-cardbox .avilblood h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
