@@ -18,7 +18,7 @@ const app = express();
 //middlewares
 app.use(express.json());
 app.use( cors({
-    origin: "https://blood-bank-harsh-prajapat.vercel.app/",
+    origin: "https://blood-bank-harsh-prajapat.vercel.app",
     methods: "GET, POST, PUT, DELETE, PATCH",
     credentials: true,
   }));
